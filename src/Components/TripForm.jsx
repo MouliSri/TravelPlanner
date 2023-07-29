@@ -27,7 +27,7 @@ function TripForm() {
 
     return (
       <div className='flex justify-center items-center h-screen w-full bg-teal-400  '>
-        <div className="w-1/2 bg-white rounded shadow-2xl p-10 m-4">
+        <div className="w-96 md:w-1/2 bg-white rounded shadow-2xl p-10 m-4">
         <h1 className="block w-full text-center text-gray-800 text-2xl font-bold mb-6">Trip Form</h1>
         <form onSubmit={handleSubmit} className=' mx-auto mt-10 h-80 w-80    grid grid-flow-row '>
         <div className="flex flex-col mb-4 ">
@@ -55,7 +55,7 @@ function TripForm() {
                 onChange={(e) => setEndDate(e.target.value)}
                 required />
               </div>
-            <button type="submit"  className="block  bg-teal-400 hover:bg-gradient-to-r from-teal-500 to-teal-50 text-white uppercase text-lg mx-auto p-4 rounded">Add Trip</button>
+            <button type="submit"  className="block  bg-teal-400 hover:bg-gradient-to-r from-teal-500 to-teal-50 text-white uppercase text-lg mx-auto p-4  rounded">Add Trip</button>
         </form>
         </div>
         </div>
