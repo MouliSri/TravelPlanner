@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    background-image: url("../assets/FormImage.jpg");
+    
+}
+.custom{
+    list-style-type:disc
+}
